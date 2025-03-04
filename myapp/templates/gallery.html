@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <a href="{%  url 'index' %}">index</a>
+    <a href="{%  url 'services' %}">SERVICES</a>
+    <a href="{%  url 'contact' %}">Contact us</a>
+    <a href="{%  url 'mit' %}">MIT</a>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+</head>
+<h1>My gallery</h1>
+<body>
+
+<img src="{% static 'images/i2.jpeg' %}" alt="">
+<img src="{% static 'images/i3.jpeg' %}" alt="">
+<img src="{% static 'images/i4.jpeg' %}" alt="">
+<img src="{% static 'images/i5.jpeg' %}" alt="">
+<img src="{% static 'images/i6.jpeg' %}" alt="">
+</body>
+</html>

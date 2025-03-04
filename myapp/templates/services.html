@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <a href="{%  url 'index' %}">index</a>
+    <a href="{%  url 'contact' %}">Contact us</a>
+    <a href="{%  url 'mit' %}">MIT</a>
+    <a href="{%  url 'gallery' %}">GALLERY</a>
+    <link rel="stylesheet" href="{% static 'css/services.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+</head>
+<h1>My services</h1>
+<body>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur cum doloremque dolores, eius explicabo id libero quibusdam suscipit voluptas! Cupiditate dolorem dolorum fugit harum laudantium molestias, officiis quia veniam!</span><span>A, assumenda consequuntur corporis delectus dolore eius enim eos expedita impedit in incidunt iure magnam magni optio quia quidem repudiandae sapiente tempore vel vero. Architecto corporis eius excepturi molestiae quibusdam.</span><span>Amet animi corporis eveniet excepturi exercitationem facilis hic itaque nam nostrum odit, possimus praesentium, quidem recusandae reprehenderit sequi totam voluptates. Dignissimos ea harum illo impedit itaque obcaecati placeat sequi ullam!</span><span>Aperiam cumque deserunt dignissimos, dolorum fugiat magni nisi? Cumque ducimus est id, libero molestiae qui quod repellat! Amet consequuntur deserunt eaque est excepturi id natus officia omnis porro, unde voluptatem!</span></p>
+<img src="{% static 'images/i6.jpeg' %}" alt="">
+<img src="{% static 'images/i5.jpeg' %}" alt="">
+<img src="{% static 'images/i4.jpeg' %}" alt="">
+<img src="{% static 'images/i3.jpeg' %}" alt="">
+<img src="{% static 'images/i2.jpeg' %}" alt="">
+</body>
+</html>
